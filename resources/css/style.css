@@ -40,4 +40,7 @@ nav li a {
 
 #about img {
     float: right;
+    margin: 10px 2rem 10px 10px;
+    width: 180px;
+    height: auto;
 }
