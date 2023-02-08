@@ -19,8 +19,24 @@ header {
     border-bottom: 1px solid black;
 }
 
+main {
+    margin: 0 2rem;
+}
+
+p {
+    font-size: 1.333rem;
+}
+
+a {
+    color: darkgreen; 
+}
+
 h1 {
     font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
 }
 
 nav ul {
@@ -36,6 +52,10 @@ nav li {
 nav li a {
     color: black;
     text-decoration: none;
+}
+
+ul li {
+    font-size: 1.333rem;
 }
 
 #about img {
