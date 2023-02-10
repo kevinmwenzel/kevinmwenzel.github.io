@@ -64,3 +64,17 @@ ul li {
     width: 180px;
     height: auto;
 }
+
+#contactinfo {
+    display: flex;
+    justify-content: left;
+}
+
+#contact ul {
+    list-style-type: none;
+}
+
+#contact li {
+    display: inline;
+    margin-right: 3rem;
+}
