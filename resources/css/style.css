@@ -65,16 +65,16 @@ ul li {
     height: auto;
 }
 
-#contactinfo {
+#skillslist, #contactinfo {
     display: flex;
     justify-content: left;
 }
 
-#contact ul {
+#skillslist ul, #contactinfo ul {
     list-style-type: none;
 }
 
-#contact li {
+#skillslist li, #contactinfo li {
     display: inline;
     margin-right: 3rem;
 }
