@@ -7,7 +7,7 @@ html {
 }
 
 p, h1, h2, h3, h4, h5, h6 {
-    color: black;
+    color: #0a0908;
 }
 
 header {
@@ -16,7 +16,7 @@ header {
     align-items: center;
     height: 5rem;
     margin: auto 2rem;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #0a0908;
 }
 
 main {
@@ -28,7 +28,7 @@ p {
 }
 
 a {
-    color: darkgreen; 
+    color: #cfb53b; 
 }
 
 h1 {
@@ -50,7 +50,7 @@ nav li {
 }
 
 nav li a {
-    color: black;
+    color: #0a0908;
     text-decoration: none;
 }
 
@@ -77,4 +77,5 @@ ul li {
 #skillslist li, #contactinfo li {
     display: inline;
     margin-right: 3rem;
+    color: #cfb53b;
 }
