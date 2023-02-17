@@ -6,9 +6,31 @@ html {
     font-size: 12px;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
+body {
+    background-color: white;
     color: #0a0908;
 }
+
+.dark-mode {
+    background-color: #0a0908;
+    color: white;
+}
+
+.dark-mode header {
+    border-bottom: 1px solid white;
+}
+
+.dark-mode nav li a {
+    color: white;
+}
+
+.dark-mode #about img {
+    border: 1px solid #cfb53b;
+}
+
+/* p, h1, h2, h3, h4, h5, h6 {
+    color: #0a0908;
+} */
 
 header {
     display: flex;
@@ -52,6 +74,10 @@ nav li {
 nav li a {
     color: #0a0908;
     text-decoration: none;
+}
+
+#toggle {
+    cursor: pointer;
 }
 
 ul li {
