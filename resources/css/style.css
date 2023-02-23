@@ -105,3 +105,50 @@ ul li {
     margin-right: 3rem;
     color: #cfb53b;
 }
+
+@media only screen and (max-width: 680px) {
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    p, ul li, nav ul li {
+        font-size: 1.2rem;
+    }
+
+    nav ul li {
+        margin-left: 1rem;
+    }
+
+}
+
+@media only screen and (max-width: 547px) {
+    p, ul li, nav ul li {
+        font-size: 1.1rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.333rem;
+    }
+
+    nav ul li {
+        margin-left: 0.667rem;
+    }
+
+    #about img {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 469px) {
+    
+}
