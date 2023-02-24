@@ -80,6 +80,19 @@ nav li a {
     cursor: pointer;
 }
 
+#topmenu {
+    display: inline-block;
+}
+
+#hamburger {
+    display: none;
+}
+
+#dark {
+    display: inline-block;
+    margin-left: 1.5rem;
+}
+
 ul li {
     font-size: 1.333rem;
 }
@@ -127,7 +140,7 @@ ul li {
 
 }
 
-@media only screen and (max-width: 547px) {
+@media only screen and (max-width: 557px) {
     p, ul li, nav ul li {
         font-size: 1.1rem;
     }
@@ -149,6 +162,12 @@ ul li {
     }
 }
 
-@media only screen and (max-width: 469px) {
-    
+@media only screen and (max-width: 484px) {
+    #topmenu {
+        display: none;
+    }
+
+    #hamburger {
+        display: inline-block;
+    }
 }

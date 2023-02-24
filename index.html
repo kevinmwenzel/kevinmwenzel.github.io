@@ -13,13 +13,18 @@
     <header>
         <h1 id="home">Kevin Wenzel</h1>
         <nav>
-            <ul>
+            <ul id="topmenu">
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><i id="toggle" onclick="darkMode()" class="fa-solid fa-circle-half-stroke" title="Light Mode/Dark Mode"></i></li>
             </ul>
+            <div id="hamburger">
+                <i class="fa-solid fa-bars fa-xl" title="Menu"></i>
+            </div>
+            <div id="dark">
+                <i id="toggle" onclick="darkMode()" class="fa-solid fa-circle-half-stroke fa-xl" title="Light Mode/Dark Mode"></i>
+            </div>
         </nav>
     </header>
 
