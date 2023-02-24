@@ -99,7 +99,7 @@ nav li a {
     text-align: right;
 }
 
-#hamburger:hover #dropdown {
+#hamburger:hover #dropdown, #hamburger:active #dropdown {
     display: block;
 }
 
