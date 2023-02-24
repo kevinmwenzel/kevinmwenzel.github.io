@@ -86,11 +86,43 @@ nav li a {
 
 #hamburger {
     display: none;
+    position: relative;
+}
+
+#dropdown {
+    display: none;
+    position: absolute;
+    right: 0;
+    min-width: 120px;
+    z-index: 1;
+    background-color: #cfb53b;
+    text-align: right;
+}
+
+#hamburger:hover #dropdown {
+    display: block;
+}
+
+#dropdown a {
+    color: #0a0908;
+    text-decoration: none;
+    display: block;
+    font-size: 1.1rem;
+    padding: 10px;
+}
+
+#dropdown a:hover {
+    background-color: #0a0908;
+    color: white;
 }
 
 #dark {
     display: inline-block;
     margin-left: 1.5rem;
+}
+
+main div {
+    margin-bottom: 50px;
 }
 
 ul li {
@@ -169,5 +201,6 @@ ul li {
 
     #hamburger {
         display: inline-block;
+        cursor: pointer;
     }
 }
