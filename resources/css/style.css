@@ -89,7 +89,7 @@ nav li a {
     position: relative;
 }
 
-#dropdown {
+.dropdown-content {
     display: none;
     position: absolute;
     right: 0;
@@ -99,9 +99,13 @@ nav li a {
     text-align: right;
 }
 
-#hamburger:hover #dropdown, #hamburger:active #dropdown {
+.show {
     display: block;
 }
+
+/* #hamburger:hover #dropdown, #hamburger:active #dropdown {
+    display: block;
+} */
 
 #dropdown a {
     color: #0a0908;
@@ -204,7 +208,7 @@ ul li {
         cursor: pointer;
     }
 
-    #hamburger:active #dropdown {
+    /* #hamburger:active #dropdown {
         display: block;
-    }
+    } */
 }
