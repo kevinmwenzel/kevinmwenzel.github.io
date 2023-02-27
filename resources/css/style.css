@@ -50,7 +50,7 @@ p {
 }
 
 a {
-    color: #cfb53b; 
+    color: #000196; 
 }
 
 h1 {
@@ -152,6 +152,10 @@ ul li {
 #skillslist li, #contactinfo li {
     display: inline;
     margin-right: 3rem;
+    color: #cfb53b;
+}
+
+#contactinfo a {
     color: #cfb53b;
 }
 
